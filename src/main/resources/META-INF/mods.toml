@@ -1,0 +1,33 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[32,)" #mandatory
+
+authors="Shadows_of_Fire" #optional
+
+license="MIT License" #mandatory
+
+[[mods]] #mandatory
+
+modId="spawnsinspawn" #mandatory
+
+version="${file.jarVersion}" #mandatory
+
+displayName="Spawns In Spawn" #mandatory
+
+description='''
+Allowing spawns within spawn chunks
+'''
+
+[[dependencies.spawnsinspawn]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[36.1.65,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.darkohax]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,)"
+    ordering="NONE"
+    side="BOTH"
