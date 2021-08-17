@@ -18,9 +18,9 @@ public abstract class MixinWorldEntitySpawner {
 
 	/**
 	 * 
-	 * [VANILLA-COPY] - only changes are the commented out lines - easier to overwrite than it is to null out the branch.
+	 * [VANILLA-COPY] - Only changes made are hardcoded double constants were changed to configurable values.
 	 * @Author Shadows_of_Fire
-	 * @reason We need spawns in spawn!
+	 * @reason Allows for the configuration of entity-player spawn distance and entity-worldspawn spawn distance.
 	 */
 	@Overwrite
 	private static boolean isRightDistanceToPlayerAndSpawnPoint(ServerWorld world, IChunk chunk, BlockPos.Mutable pos, double distToPlayer) {

@@ -25,7 +25,7 @@ Allowing spawns within spawn chunks
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.darkohax]]
+[[dependencies.spawnsinspawn]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.5,)"
